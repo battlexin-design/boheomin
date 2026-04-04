@@ -1,7 +1,7 @@
 {
   "kind": "boheomin/admin-claim-coords",
   "version": 3,
-  "savedAt": "2026-04-04T13:51:53.166Z",
+  "savedAt": "2026-04-04T14:02:38.198Z",
   "insurers": {
     "nonLife": "KB손보",
     "life": null
@@ -17,16 +17,12 @@
       "pdfPage": 1,
       "positionsByField": {
         "residentId#1": {
-          "x": 290,
-          "y": 118
-        },
-        "residentId#2": {
-          "x": 290,
-          "y": 189
+          "x": 288,
+          "y": 117
         },
         "phone#1": {
-          "x": 154,
-          "y": 141
+          "x": 153,
+          "y": 140
         }
       },
       "meta": null,
@@ -41,7 +37,7 @@
         },
         "residentId": {
           "fontSizePx": 22,
-          "letterSpacingEm": 0.3
+          "letterSpacingEm": 0.31
         }
       },
       "exportSplitHyphenSizeBySk": {
@@ -49,9 +45,7 @@
         "phone": "sm"
       },
       "exportCharHyphenGapEmBySk": {},
-      "exportFineLetterSpacingEmBySk": {
-        "residentId": 0.02
-      }
+      "exportFineLetterSpacingEmBySk": {}
     },
     {
       "pdfPage": 2,
@@ -86,20 +80,16 @@
   ],
   "positionsByField": {
     "residentId#1": {
-      "x": 290,
-      "y": 118
-    },
-    "residentId#2": {
-      "x": 290,
-      "y": 189
+      "x": 288,
+      "y": 117
     },
     "phone#1": {
-      "x": 154,
-      "y": 141
+      "x": 153,
+      "y": 140
     }
   },
   "meta": null,
-  "layoutModuleSource": "/**\n * 자동 생성 — 관리자 툴 「청구서류 폼매칭」 (페이지별 좌표)\n * pages[].positionsByField — 해당 pdfPage를 보여 줄 때 사용. 상용 앱은 현재 PDF 페이지와 일치하는 항목을 선택.\n * positionsByField (1페이지 기준 하위 호환): 구 버전 소비자용. 가능하면 pages를 사용하세요.\n */\n\nexport const CLAIM_USER_EXPORT_LAYOUT = {\n  /** 사용자 화면에서 선택한 보험사 식별자(문자열 등)로 교체 */\n  insurerKey: null,\n  pdfFileName: \"KB손해보험.pdf\",\n  pdfNumPages: 4,\n  pages: [\n    {\n      pdfPage: 1,\n      meta: { pdfPage: 1, reactPdfPageWidthPx: null, pdfViewportPt: { width: null, height: null }, note: '패드에서 해당 페이지를 연 뒤 저장하면 채워집니다.' },\n      positionsByField: {\n        \"residentId#1\": { x: 290, y: 118 }, // 2-1 주민번호\n        \"residentId#2\": { x: 290, y: 189 }, // 2-2 주민번호\n        \"phone#1\": { x: 154, y: 141 } // 3-1 휴대폰\n      },\n    },\n    {\n      pdfPage: 2,\n      meta: { pdfPage: 2, reactPdfPageWidthPx: null, pdfViewportPt: { width: null, height: null }, note: '패드에서 해당 페이지를 연 뒤 저장하면 채워집니다.' },\n      positionsByField: {\n      },\n    },\n    {\n      pdfPage: 3,\n      meta: { pdfPage: 3, reactPdfPageWidthPx: null, pdfViewportPt: { width: null, height: null }, note: '패드에서 해당 페이지를 연 뒤 저장하면 채워집니다.' },\n      positionsByField: {\n      },\n    },\n    {\n      pdfPage: 4,\n      meta: { pdfPage: 4, reactPdfPageWidthPx: null, pdfViewportPt: { width: null, height: null }, note: '패드에서 해당 페이지를 연 뒤 저장하면 채워집니다.' },\n      positionsByField: {\n      },\n    },\n  ],\n  meta: { pdfPage: 1, reactPdfPageWidthPx: null, pdfViewportPt: { width: null, height: null } },\n  positionsByField: {\n    \"residentId#1\": { x: 290, y: 118 }, // 2-1 주민번호\n    \"residentId#2\": { x: 290, y: 189 }, // 2-2 주민번호\n    \"phone#1\": { x: 154, y: 141 } // 3-1 휴대폰\n  },\n};\n",
+  "layoutModuleSource": "/**\n * 자동 생성 — 관리자 툴 「청구서류 폼매칭」 (페이지별 좌표)\n * pages[].positionsByField — 해당 pdfPage를 보여 줄 때 사용. 상용 앱은 현재 PDF 페이지와 일치하는 항목을 선택.\n * positionsByField (1페이지 기준 하위 호환): 구 버전 소비자용. 가능하면 pages를 사용하세요.\n */\n\nexport const CLAIM_USER_EXPORT_LAYOUT = {\n  /** 사용자 화면에서 선택한 보험사 식별자(문자열 등)로 교체 */\n  insurerKey: null,\n  pdfFileName: \"KB손해보험.pdf\",\n  pdfNumPages: 4,\n  pages: [\n    {\n      pdfPage: 1,\n      meta: { pdfPage: 1, reactPdfPageWidthPx: null, pdfViewportPt: { width: null, height: null }, note: '패드에서 해당 페이지를 연 뒤 저장하면 채워집니다.' },\n      positionsByField: {\n        \"residentId#1\": { x: 288, y: 117 }, // 2-1 주민번호\n        \"phone#1\": { x: 153, y: 140 } // 3-1 휴대폰\n      },\n    },\n    {\n      pdfPage: 2,\n      meta: { pdfPage: 2, reactPdfPageWidthPx: null, pdfViewportPt: { width: null, height: null }, note: '패드에서 해당 페이지를 연 뒤 저장하면 채워집니다.' },\n      positionsByField: {\n      },\n    },\n    {\n      pdfPage: 3,\n      meta: { pdfPage: 3, reactPdfPageWidthPx: null, pdfViewportPt: { width: null, height: null }, note: '패드에서 해당 페이지를 연 뒤 저장하면 채워집니다.' },\n      positionsByField: {\n      },\n    },\n    {\n      pdfPage: 4,\n      meta: { pdfPage: 4, reactPdfPageWidthPx: null, pdfViewportPt: { width: null, height: null }, note: '패드에서 해당 페이지를 연 뒤 저장하면 채워집니다.' },\n      positionsByField: {\n      },\n    },\n  ],\n  meta: { pdfPage: 1, reactPdfPageWidthPx: null, pdfViewportPt: { width: null, height: null } },\n  positionsByField: {\n    \"residentId#1\": { x: 288, y: 117 }, // 2-1 주민번호\n    \"phone#1\": { x: 153, y: 140 } // 3-1 휴대폰\n  },\n};\n",
   "exportFieldCharLayout": {
     "residentId": "resident-67",
     "phone": "phone-344"
@@ -111,7 +101,7 @@
     },
     "residentId": {
       "fontSizePx": 22,
-      "letterSpacingEm": 0.3
+      "letterSpacingEm": 0.31
     }
   },
   "exportSplitHyphenSizeBySk": {
@@ -119,7 +109,5 @@
     "phone": "sm"
   },
   "exportCharHyphenGapEmBySk": {},
-  "exportFineLetterSpacingEmBySk": {
-    "residentId": 0.02
-  }
+  "exportFineLetterSpacingEmBySk": {}
 }
