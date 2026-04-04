@@ -1,7 +1,7 @@
 {
   "kind": "boheomin/admin-claim-coords",
   "version": 3,
-  "savedAt": "2026-04-04T11:55:32.347Z",
+  "savedAt": "2026-04-04T12:20:04.824Z",
   "insurers": {
     "nonLife": "KB손보",
     "life": null
@@ -16,132 +16,38 @@
     {
       "pdfPage": 1,
       "positionsByField": {
-        "name#1": {
-          "x": 166,
-          "y": 113
-        },
-        "name#2": {
-          "x": 158,
-          "y": 186
-        },
         "residentId#1": {
-          "x": 286,
+          "x": 288,
           "y": 116
         },
-        "residentId#2": {
-          "x": 285,
-          "y": 187
-        },
         "phone#1": {
-          "x": 153,
-          "y": 140
-        },
-        "phone#2": {
-          "x": 153,
-          "y": 235
-        },
-        "address#1": {
-          "x": 170,
-          "y": 164
-        },
-        "accidentDate": {
-          "x": 115,
-          "y": 385
-        },
-        "accidentPlace": {
-          "x": 340,
-          "y": 386
-        },
-        "diagnosis": {
-          "x": 341,
-          "y": 434
-        },
-        "accidentDetail": {
-          "x": 105,
-          "y": 418
-        },
-        "hospital": {
-          "x": 339,
-          "y": 411
-        },
-        "bankName": {
-          "x": 159,
-          "y": 587
-        },
-        "accountNumber": {
-          "x": 261,
-          "y": 587
-        },
-        "writtenDate#1": {
-          "x": 118,
-          "y": 678
+          "x": 150,
+          "y": 138
         }
       },
       "meta": null,
       "exportFieldCharLayout": {
-        "residentId": "resident-67",
         "phone": "phone-344",
-        "accidentDate": "date-korean-ymd",
-        "writtenDate": "date-korean-ymd"
+        "residentId": "resident-67"
       },
       "exportItemStylesByKey": {
-        "accidentDate": {
-          "fontSizePx": 22,
-          "letterSpacingEm": 0.25
-        },
-        "accidentDetail": {
-          "fontSizePx": 22,
-          "letterSpacingEm": 0
-        },
-        "accidentPlace": {
-          "fontSizePx": 22,
-          "letterSpacingEm": 0
-        },
-        "accountNumber": {
-          "fontSizePx": 22,
-          "letterSpacingEm": 0
-        },
-        "address": {
-          "fontSizePx": 22,
-          "letterSpacingEm": 0
-        },
-        "bankName": {
-          "fontSizePx": 22,
-          "letterSpacingEm": 0
-        },
-        "diagnosis": {
-          "fontSizePx": 22,
-          "letterSpacingEm": 0
-        },
-        "hospital": {
-          "fontSizePx": 22,
-          "letterSpacingEm": 0
-        },
-        "name": {
-          "fontSizePx": 22,
-          "letterSpacingEm": 0.21
-        },
         "phone": {
           "fontSizePx": 22,
-          "letterSpacingEm": 0.32
+          "letterSpacingEm": 0.35
         },
         "residentId": {
           "fontSizePx": 22,
-          "letterSpacingEm": 0.32
-        },
-        "writtenDate": {
-          "fontSizePx": 22,
-          "letterSpacingEm": 0.21
+          "letterSpacingEm": 0.28
         }
       },
       "exportSplitHyphenSizeBySk": {
-        "residentId": "sm",
-        "phone": "md"
+        "phone": "md",
+        "residentId": "sm"
       },
       "exportCharHyphenGapEmBySk": {},
       "exportFineLetterSpacingEmBySk": {
-        "residentId": -0.025,
-        "phone": -0.04
+        "phone": -0.065,
+        "residentId": 0.045
       }
     },
     {
@@ -176,65 +82,13 @@
     }
   ],
   "positionsByField": {
-    "name#1": {
-      "x": 166,
-      "y": 113
-    },
-    "name#2": {
-      "x": 158,
-      "y": 186
-    },
     "residentId#1": {
-      "x": 286,
+      "x": 288,
       "y": 116
     },
-    "residentId#2": {
-      "x": 285,
-      "y": 187
-    },
     "phone#1": {
-      "x": 153,
-      "y": 140
-    },
-    "phone#2": {
-      "x": 153,
-      "y": 235
-    },
-    "address#1": {
-      "x": 170,
-      "y": 164
-    },
-    "accidentDate": {
-      "x": 115,
-      "y": 385
-    },
-    "accidentPlace": {
-      "x": 340,
-      "y": 386
-    },
-    "diagnosis": {
-      "x": 341,
-      "y": 434
-    },
-    "accidentDetail": {
-      "x": 105,
-      "y": 418
-    },
-    "hospital": {
-      "x": 339,
-      "y": 411
-    },
-    "bankName": {
-      "x": 159,
-      "y": 587
-    },
-    "accountNumber": {
-      "x": 261,
-      "y": 587
-    },
-    "writtenDate#1": {
-      "x": 118,
-      "y": 678
+      "x": 150,
+      "y": 138
     }
   },
   "meta": {
@@ -249,70 +103,28 @@
       "height": 0
     }
   },
-  "layoutModuleSource": "/**\n * 자동 생성 — 관리자 툴 「청구서류 폼매칭」 (페이지별 좌표)\n * pages[].positionsByField — 해당 pdfPage를 보여 줄 때 사용. 상용 앱은 현재 PDF 페이지와 일치하는 항목을 선택.\n * positionsByField (1페이지 기준 하위 호환): 구 버전 소비자용. 가능하면 pages를 사용하세요.\n */\n\nexport const CLAIM_USER_EXPORT_LAYOUT = {\n  /** 사용자 화면에서 선택한 보험사 식별자(문자열 등)로 교체 */\n  insurerKey: null,\n  pdfFileName: \"KB손해보험.pdf\",\n  pdfNumPages: 4,\n  pages: [\n    {\n      pdfPage: 1,\n      meta: { pdfPage: 1, reactPdfPageWidthPx: null, pdfViewportPt: { width: null, height: null }, note: '패드에서 해당 페이지를 연 뒤 저장하면 채워집니다.' },\n      positionsByField: {\n        \"name#1\": { x: 166, y: 113 }, // 1-1 이름\n        \"name#2\": { x: 158, y: 186 }, // 1-2 이름\n        \"residentId#1\": { x: 286, y: 116 }, // 2-1 주민번호\n        \"residentId#2\": { x: 285, y: 187 }, // 2-2 주민번호\n        \"phone#1\": { x: 153, y: 140 }, // 3-1 휴대폰\n        \"phone#2\": { x: 153, y: 235 }, // 3-2 휴대폰\n        \"address#1\": { x: 170, y: 164 }, // 4-1 주소\n        \"accidentDate\": { x: 115, y: 385 }, // 5. 사고일자\n        \"accidentPlace\": { x: 340, y: 386 }, // 6. 사고 장소\n        \"diagnosis\": { x: 341, y: 434 }, // 7. 진단명\n        \"accidentDetail\": { x: 105, y: 418 }, // 8. 사고내용\n        \"hospital\": { x: 339, y: 411 }, // 9. 병원명\n        \"bankName\": { x: 159, y: 587 }, // 10. 은행\n        \"accountNumber\": { x: 261, y: 587 }, // 11. 계좌번호\n        \"writtenDate#1\": { x: 118, y: 678 } // 12-1 작성일\n      },\n    },\n    {\n      pdfPage: 2,\n      meta: { pdfPage: 2, reactPdfPageWidthPx: null, pdfViewportPt: { width: null, height: null }, note: '패드에서 해당 페이지를 연 뒤 저장하면 채워집니다.' },\n      positionsByField: {\n      },\n    },\n    {\n      pdfPage: 3,\n      meta: { pdfPage: 3, reactPdfPageWidthPx: null, pdfViewportPt: { width: null, height: null }, note: '패드에서 해당 페이지를 연 뒤 저장하면 채워집니다.' },\n      positionsByField: {\n      },\n    },\n    {\n      pdfPage: 4,\n      meta: { pdfPage: 4, reactPdfPageWidthPx: null, pdfViewportPt: { width: null, height: null }, note: '패드에서 해당 페이지를 연 뒤 저장하면 채워집니다.' },\n      positionsByField: {\n      },\n    },\n  ],\n  meta: { pdfPage: 1, reactPdfPageWidthPx: null, pdfViewportPt: { width: null, height: null } },\n  positionsByField: {\n    \"name#1\": { x: 166, y: 113 }, // 1-1 이름\n    \"name#2\": { x: 158, y: 186 }, // 1-2 이름\n    \"residentId#1\": { x: 286, y: 116 }, // 2-1 주민번호\n    \"residentId#2\": { x: 285, y: 187 }, // 2-2 주민번호\n    \"phone#1\": { x: 153, y: 140 }, // 3-1 휴대폰\n    \"phone#2\": { x: 153, y: 235 }, // 3-2 휴대폰\n    \"address#1\": { x: 170, y: 164 }, // 4-1 주소\n    \"accidentDate\": { x: 115, y: 385 }, // 5. 사고일자\n    \"accidentPlace\": { x: 340, y: 386 }, // 6. 사고 장소\n    \"diagnosis\": { x: 341, y: 434 }, // 7. 진단명\n    \"accidentDetail\": { x: 105, y: 418 }, // 8. 사고내용\n    \"hospital\": { x: 339, y: 411 }, // 9. 병원명\n    \"bankName\": { x: 159, y: 587 }, // 10. 은행\n    \"accountNumber\": { x: 261, y: 587 }, // 11. 계좌번호\n    \"writtenDate#1\": { x: 118, y: 678 } // 12-1 작성일\n  },\n};\n",
+  "layoutModuleSource": "/**\n * 자동 생성 — 관리자 툴 「청구서류 폼매칭」 (페이지별 좌표)\n * pages[].positionsByField — 해당 pdfPage를 보여 줄 때 사용. 상용 앱은 현재 PDF 페이지와 일치하는 항목을 선택.\n * positionsByField (1페이지 기준 하위 호환): 구 버전 소비자용. 가능하면 pages를 사용하세요.\n */\n\nexport const CLAIM_USER_EXPORT_LAYOUT = {\n  /** 사용자 화면에서 선택한 보험사 식별자(문자열 등)로 교체 */\n  insurerKey: null,\n  pdfFileName: \"KB손해보험.pdf\",\n  pdfNumPages: 4,\n  pages: [\n    {\n      pdfPage: 1,\n      meta: { pdfPage: 1, reactPdfPageWidthPx: null, pdfViewportPt: { width: null, height: null }, note: '패드에서 해당 페이지를 연 뒤 저장하면 채워집니다.' },\n      positionsByField: {\n        \"residentId#1\": { x: 288, y: 116 }, // 2-1 주민번호\n        \"phone#1\": { x: 150, y: 138 } // 3-1 휴대폰\n      },\n    },\n    {\n      pdfPage: 2,\n      meta: { pdfPage: 2, reactPdfPageWidthPx: null, pdfViewportPt: { width: null, height: null }, note: '패드에서 해당 페이지를 연 뒤 저장하면 채워집니다.' },\n      positionsByField: {\n      },\n    },\n    {\n      pdfPage: 3,\n      meta: { pdfPage: 3, reactPdfPageWidthPx: null, pdfViewportPt: { width: null, height: null }, note: '패드에서 해당 페이지를 연 뒤 저장하면 채워집니다.' },\n      positionsByField: {\n      },\n    },\n    {\n      pdfPage: 4,\n      meta: { pdfPage: 4, reactPdfPageWidthPx: null, pdfViewportPt: { width: null, height: null }, note: '패드에서 해당 페이지를 연 뒤 저장하면 채워집니다.' },\n      positionsByField: {\n      },\n    },\n  ],\n  meta: { pdfPage: 1, reactPdfPageWidthPx: null, pdfViewportPt: { width: null, height: null } },\n  positionsByField: {\n    \"residentId#1\": { x: 288, y: 116 }, // 2-1 주민번호\n    \"phone#1\": { x: 150, y: 138 } // 3-1 휴대폰\n  },\n};\n",
   "exportFieldCharLayout": {
-    "residentId": "resident-67",
     "phone": "phone-344",
-    "accidentDate": "date-korean-ymd",
-    "writtenDate": "date-korean-ymd"
+    "residentId": "resident-67"
   },
   "exportItemStylesByKey": {
-    "accidentDate": {
-      "fontSizePx": 22,
-      "letterSpacingEm": 0.25
-    },
-    "accidentDetail": {
-      "fontSizePx": 22,
-      "letterSpacingEm": 0
-    },
-    "accidentPlace": {
-      "fontSizePx": 22,
-      "letterSpacingEm": 0
-    },
-    "accountNumber": {
-      "fontSizePx": 22,
-      "letterSpacingEm": 0
-    },
-    "address": {
-      "fontSizePx": 22,
-      "letterSpacingEm": 0
-    },
-    "bankName": {
-      "fontSizePx": 22,
-      "letterSpacingEm": 0
-    },
-    "diagnosis": {
-      "fontSizePx": 22,
-      "letterSpacingEm": 0
-    },
-    "hospital": {
-      "fontSizePx": 22,
-      "letterSpacingEm": 0
-    },
-    "name": {
-      "fontSizePx": 22,
-      "letterSpacingEm": 0.21
-    },
     "phone": {
       "fontSizePx": 22,
-      "letterSpacingEm": 0.32
+      "letterSpacingEm": 0.35
     },
     "residentId": {
       "fontSizePx": 22,
-      "letterSpacingEm": 0.32
-    },
-    "writtenDate": {
-      "fontSizePx": 22,
-      "letterSpacingEm": 0.21
+      "letterSpacingEm": 0.28
     }
   },
   "exportSplitHyphenSizeBySk": {
-    "residentId": "sm",
-    "phone": "md"
+    "phone": "md",
+    "residentId": "sm"
   },
   "exportCharHyphenGapEmBySk": {},
   "exportFineLetterSpacingEmBySk": {
-    "residentId": -0.025,
-    "phone": -0.04
+    "phone": -0.065,
+    "residentId": 0.045
   }
 }
